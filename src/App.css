@@ -1,0 +1,121 @@
+.navbar {
+  display: flex;
+  justify-content: center; /* Centers buttons horizontally */
+  align-items: center;
+  background-color: #333; /* Navbar background color */
+  padding: 15px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 20px; /* Space between buttons */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #444; /* Button background */
+  transition: 0.3s;
+}
+
+.nav-buttons a:hover {
+  background-color: #555; /* Hover effect */
+}
+.navbar {
+  position: fixed;  /* ✅ Keeps navbar at the top */
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* ✅ Semi-transparent */
+  padding: 10px 0;
+  z-index: 1000;  /* ✅ Stays above all content */
+}
+
+.nav-buttons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin: 0 15px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.nav-button:hover {
+  color: #3498db;
+}
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.nav-buttons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin: 0 15px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.nav-button:hover {
+  color: #3498db;
+}
+
+/* Home Section */
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+  gap: 20px;
+  text-align: left;
+}
+
+/* Profile Picture */
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Home Text */
+.home-text {
+  max-width: 600px;
+}
+
+.home-text h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.home-text p {
+  font-size: 18px;
+  margin-top: 10px;
+}
